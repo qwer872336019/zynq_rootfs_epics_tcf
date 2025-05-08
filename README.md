@@ -12,6 +12,7 @@ ROOTfs下载连接：
 
 # 挂载系统镜像文件
 sudo mkdir /mnt/rootfs_img
+
 sudo mount -o loop rootfs.img /mnt/rootfs_img
 
 # 解压根文件系统到镜像
