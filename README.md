@@ -10,10 +10,10 @@ ROOTfs下载连接：
 
 查看设备：lsblk
 
-# 挂载系统镜像文件
+# 在LINUX下挂载系统镜像文件
 sudo mkdir /mnt/rootfs_img
 
 sudo mount -o loop rootfs.img /mnt/rootfs_img
 
-# 解压根文件系统到镜像
+# 解压根文件系统到EXT4分区
 sudo tar -xvpf rootfs.tar.gz -C /mnt/rootfs_img
