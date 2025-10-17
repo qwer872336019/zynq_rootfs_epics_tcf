@@ -1,5 +1,5 @@
 # ROOTFS_EPICS_TCF
-这是一个依据Debian8、Ubuntu 16.04.6提供的根文件系统更改的后的文件系统仓库
+这是一个依据Debian8、Ubuntu 16.04.6提供的根文件系统更改的后的文件系统仓库，支持正点原子zynq最小系统板、alinx 7020b开发板。
 
 ## Debian8_ROOTfs下载连接：
 
