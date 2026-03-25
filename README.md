@@ -16,6 +16,7 @@ lsblk
 
 # 2. 格式化
 mkfs.vfat /dev/sdX1
+
 mkfs.ext4 /dev/sdX2
 
 # 3. 解压 rootfs
