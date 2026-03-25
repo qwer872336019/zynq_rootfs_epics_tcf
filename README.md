@@ -28,3 +28,5 @@ sudo tar -xzvpf rootfsV2.tar.gz -C /mnt
 
 # 5. 执行同步命令，比较久
 sync
+# 6. 卸载分区
+sudo umount /mnt
