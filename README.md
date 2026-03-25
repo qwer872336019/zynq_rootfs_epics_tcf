@@ -11,15 +11,18 @@
 链接: https://pan.baidu.com/s/1W0YsG4fOfj4gRWM9fA2GxA 提取码: ytqm
 
 ## 安装方法
+# 1. 查看设备：
+lsblk
 
-查看设备：lsblk
+# 2. 格式化
+mkfs.vfat /dev/sdX1
+mkfs.ext4 /dev/sdX2
 
-# 在LINUX下挂载系统镜像文件
-sudo mkdir /mnt/rootfs_img
+# 3. 解压 rootfs
+mount /dev/sdX2 /mnt
+tar -xzvpf rootfsV2.tar.gz -C /mnt
 
-sudo mount -o loop rootfs.img /mnt/rootfs_img
+# 4. 拷贝 boot
 
-# 解压根文件系统到EXT4分区
-sudo tar -xvpf rootfs.tar.gz -C /mnt/rootfs_img
-# 执行同步命令，比较久
+# 5. 执行同步命令，比较久
 sync
