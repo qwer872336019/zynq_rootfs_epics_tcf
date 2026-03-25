@@ -21,3 +21,5 @@ sudo mount -o loop rootfs.img /mnt/rootfs_img
 
 # 解压根文件系统到EXT4分区
 sudo tar -xvpf rootfs.tar.gz -C /mnt/rootfs_img
+# 执行同步命令，比较久
+sync
