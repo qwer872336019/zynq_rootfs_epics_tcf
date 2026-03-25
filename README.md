@@ -20,7 +20,7 @@ mkfs.vfat /dev/sdX1
 mkfs.ext4 /dev/sdX2
 
 # 3. 解压 rootfs
-mount /dev/sdX2 /mnt
+sudo mount /dev/sdX2 /mnt
 
 sudo tar -xzvpf rootfsV2.tar.gz -C /mnt
 
