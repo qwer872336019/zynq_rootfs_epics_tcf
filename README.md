@@ -15,7 +15,7 @@
 
 ## Debian10根文件系统下载连接（Cortex A9处理器）：
 通过网盘分享的文件：A9_debian10_rootfs.tar.gz
-链接: https://pan.baidu.com/s/1WPupc_usXmyovFhW-4kwsQ 提取码: 3spv
+链接: https://pan.baidu.com/s/1rtoilOOUxHgHaGHK55aYHA 提取码: s6kt
 
 ## 安装方法
 # 1. 查看设备：
